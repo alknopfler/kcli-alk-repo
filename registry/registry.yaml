@@ -5,7 +5,7 @@ parameters:
   notify: true
   notifycmd: echo "Registry available http://$(hostname -I | cut -d' ' -f1):5000"
 
-owncloud:
+registry:
   memory: {{ memory }}
   numcpus: 2
   notify: {{ notify }}
