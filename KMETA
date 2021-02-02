@@ -1,4 +1,4 @@
 - name: docker-private-registry
-  file: registry/registry.yml
+  file: registry/registry.yaml
   description: Docker private registry
   numvms: 1
